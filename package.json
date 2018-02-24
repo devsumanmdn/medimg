@@ -1,0 +1,19 @@
+{
+  "name": "medimg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devsumanmdn/medimg"
+  },
+  "author": "devsumanmdn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "get-pixels": "^3.3.0"
+  }
+}
