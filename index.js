@@ -4,7 +4,7 @@ const express = require('express');
 var app = express();
 
 const getImgData = async (req, res, next) => {
-  getPixels('72.jpg', function(err, pixels) {
+  getPixels('imh.jpg', function(err, pixels) {
     if (err) {
       console.log('Bad image path');
       return;
